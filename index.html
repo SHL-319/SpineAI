@@ -373,14 +373,104 @@
 </section>
 <!-- End Method -->
 
-<!-- Introduction -->
+<!-- Results -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Results</h2>
+
+        <div class="content has-text-left">
+
+          <p>
+            The proposed pipeline demonstrated high localization performance for
+            the central canal and consistent stenosis severity classification
+            performance across both anatomical regions.
+          </p>
+
+        </div>
+
+        <!-- Detection Results Table -->
+        <figure style="max-width: 950px; margin: 2rem auto 1rem;">
+          <img
+            src="static/images/detection result.png"
+            alt="Detection performance of the central canal and nerve root canal models"
+            style="width: 100%; height: auto;"
+            loading="lazy">
+        </figure>
+
+        <p class="has-text-centered is-size-6">
+          <b>Table 1.</b> Detection performance of the central canal and nerve root canal localization models.
+        </p>
+
+        <!-- Classification Results Table -->
+        <figure style="max-width: 950px; margin: 3rem auto 1rem;">
+          <img
+            src="static/images/classification result.png"
+            alt="Stenosis severity classification performance"
+            style="width: 100%; height: auto;"
+            loading="lazy">
+        </figure>
+
+        <p class="has-text-centered is-size-6">
+          <b>Table 2.</b> Stenosis severity classification performance across the two anatomical regions.
+        </p>
+        
+        <!-- Representative Inference Results -->
+        <figure style="max-width: 1000px; margin: 3rem auto 1rem;">
+          <img
+            src="static/images/pipeline_result.png"
+            alt="Representative inference results"
+            style="width: 100%; height: auto;"
+            loading="lazy">
+        </figure>
+
+        <p class="has-text-centered is-size-6">
+        <b>Figure 2.</b> Representative inference results of the proposed AI pipeline.
+        The detected stenotic regions and predicted severity grades are automatically
+        overlaid on sagittal and axial MRI images.
+        </p>
+        <!-- Key Findings -->
+        <div class="content has-text-left" style="margin-top: 2.5rem;">
+
+          <h3 class="title is-4">Key Findings</h3>
+
+          <ul>
+            <li>
+              The central canal detection model achieved high precision, recall,
+              and mAP@0.5.
+            </li>
+
+            <li>
+              The classification models showed consistent performance across the
+              central canal and nerve root canal.
+            </li>
+
+            <li>
+              Most classification errors occurred between adjacent stenosis
+              severity grades.
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Results -->
+
+<!-- Disucussion -->
 <section class="section">
   <div class="container is-max-desktop">
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
 
-        <h2 class="title is-3">Introduction</h2>
+        <h2 class="title is-3">Disucussion</h2>
 
         <div class="content has-text-justified">
           <p>
@@ -416,52 +506,7 @@
 
   </div>
 </section>
-<!-- End Introduction -->
-
-<!-- Introduction -->
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-
-        <h2 class="title is-3">Introduction</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            Lumbar spinal stenosis is a common degenerative spinal disorder
-            characterized by narrowing of the spinal canal or nerve root canal.
-            MRI plays a central role in evaluating the anatomical location and
-            severity of stenosis.
-          </p>
-
-          <p>
-            However, manual MRI assessment requires the interpretation of
-            multiple imaging views and anatomical regions and may be affected
-            by inter-observer variability. Therefore, an automated and
-            standardized assessment method could support more efficient and
-            consistent evaluation.
-          </p>
-        </div>
-
-        <figure class="image">
-          <img
-            src="static/images/introduction.png"
-            alt="Lumbar spinal stenosis on axial and sagittal MRI"
-            loading="lazy">
-        </figure>
-
-        <p class="has-text-centered is-size-6">
-          Representative axial and sagittal MRI images showing lumbar spinal
-          stenosis in the central canal and nerve root canal.
-        </p>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- End Introduction -->
+<!-- End Disucussion -->
 
 <!-- Paper -->
 <section class="hero is-small is-light">
