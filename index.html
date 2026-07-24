@@ -463,50 +463,69 @@
 </section>
 <!-- End Results -->
 
-<!-- Disucussion -->
+<!-- Discussion & Future Work -->
 <section class="section">
   <div class="container is-max-desktop">
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
 
-        <h2 class="title is-3">Disucussion</h2>
+        <h2 class="title is-3">Discussion &amp; Future Work</h2>
 
-        <div class="content has-text-justified">
-          <p>
-            Lumbar spinal stenosis is a common degenerative spinal disorder
-            characterized by narrowing of the spinal canal or nerve root canal.
-            MRI plays a central role in evaluating the anatomical location and
-            severity of stenosis.
-          </p>
+        <!-- Discussion -->
+        <div class="content has-text-left">
 
-          <p>
-            However, manual MRI assessment requires the interpretation of
-            multiple imaging views and anatomical regions and may be affected
-            by inter-observer variability. Therefore, an automated and
-            standardized assessment method could support more efficient and
-            consistent evaluation.
-          </p>
+          <h3 class="title is-4">Discussion</h3>
+
+          <ol>
+            <li>
+              The proposed pipeline demonstrated robust performance for automated
+              lumbar spinal stenosis assessment across multi-institutional MRI datasets.
+            </li>
+
+            <li>
+              Most classification errors occurred between adjacent stenosis
+              severity grades, reflecting the continuous nature of anatomical narrowing.
+            </li>
+
+            <li>
+              Nerve root canal localization remains more challenging than central
+              canal localization because of its smaller anatomy and greater imaging variability.
+            </li>
+          </ol>
+
         </div>
 
-        <figure class="image">
-          <img
-            src="static/images/introduction.png"
-            alt="Lumbar spinal stenosis on axial and sagittal MRI"
-            loading="lazy">
-        </figure>
+        <!-- Future Work -->
+        <div class="content has-text-left" style="margin-top:2.5rem;">
 
-        <p class="has-text-centered is-size-6">
-          Representative axial and sagittal MRI images showing lumbar spinal
-          stenosis in the central canal and nerve root canal.
-        </p>
+          <h3 class="title is-4">Future Work</h3>
+
+          <ol>
+            <li>
+              Validate the proposed framework on independent external datasets
+              and compare its performance with clinical experts.
+            </li>
+
+            <li>
+              Improve nerve root canal localization by incorporating more diverse
+              MRI scanners, acquisition protocols, and annotation strategies.
+            </li>
+
+            <li>
+              Extend the pipeline toward clinical decision support through
+              automated radiology report generation and platform integration.
+            </li>
+          </ol>
+
+        </div>
 
       </div>
     </div>
 
   </div>
 </section>
-<!-- End Disucussion -->
+<!-- End Discussion & Future Work -->
 
 <!-- Paper -->
 <section class="hero is-small is-light">
@@ -522,22 +541,6 @@
     </div>
   </section>
 <!--End paper poster -->
-
-<!-- Paper -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
 
 
   <footer class="footer">
